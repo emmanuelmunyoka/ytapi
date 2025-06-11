@@ -186,7 +186,7 @@
         const conteneurVideos = document.getElementById('conteneur-videos')
 
         boutonRecherche.addEventListener('click', () => {
-            fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${champRecherche.value}&type=video&maxResults=50&key=AIzaSyBy1u_IQTm1_Pevp4jjzLd_-kHNebrzRbo`)
+            fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${champRecherche.value}&type=video&maxResults=50&key=AIzaSy.........................`)
             .then((e) => e.json())
             .then(data => {
                 conteneurVideos.innerHTML = ''
